@@ -1,0 +1,345 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{ height: 100%; background-color: hsl(218, 28%, 13%);}
+
+
+/* Standard elements*/
+
+a{
+	color: black; text-decoration: none;
+}
+
+.clear{clear: both;}
+
+.container, #container{
+	max-width: 1440px; padding: 0 2%; margin: 0 auto;
+}
+
+/*                              -------------------Header------------------                                   */
+
+section.header{
+
+}
+
+section.header > header.container{
+	
+}
+
+section.header > header.container > div.logo{
+	
+}
+
+section.header > header.container > nav.menu-container{
+	
+}
+
+section.header > header.container > nav.menu-container > ul.menu-desktop{
+	
+}
+
+section.header > header.container > nav.menu-container > ul.menu-desktop > li{
+	
+}
+
+section.header > header.container > nav.menu-container > ul.menu-desktop > li > a{
+	
+}
+
+/* content-header */
+
+section.header > div.content-header{
+	
+}
+
+section.header > div.content-header > div.img-header{
+	
+}
+
+section.header > div.content-header > h2{
+	
+}
+
+section.header > div.content-header > p{
+	
+}
+
+section.header > div.content-header > div.btn-1{
+	
+}
+/*                          -------------------The Header end------------------                               */
+
+
+
+
+
+/*                              -------------------Content------------------                                  */
+
+/* ---- section-1 ---- */
+article.section-1{
+
+}
+
+article.section-1 > section.container{
+
+}
+
+/* sec1 */
+article.section-1 > section.container > div.sec1{
+
+}
+
+article.section-1 > section.container > div.sec1 > img{
+
+}
+
+article.section-1 > section.container > div.sec1 > h2{
+
+}
+
+article.section-1 > section.container > div.sec1 > p{
+
+}
+/* End sec1 */
+
+/* sec2 */
+article.section-1 > section.container > div.sec2{
+
+}
+
+article.section-1 > section.container > div.sec2 > img{
+
+}
+
+article.section-1 > section.container > div.sec2 > h2{
+
+}
+
+article.section-1 > section.container > div.sec2 > p{
+
+}
+/* End sec2 */
+
+/* sec3 */
+article.section-1 > section.container > div.sec3{
+
+}
+
+article.section-1 > section.container > div.sec3 > img{
+
+}
+
+article.section-1 > section.container > div.sec3 > h2{
+
+}
+
+article.section-1 > section.container > div.sec3 > p{
+
+}
+/* End sec3 */
+
+/*       ---- The section-1 end----     */
+
+
+/*           ---- section-2 ----        */
+
+article.section-2{
+
+}
+
+/* image in the section 2 */
+
+article.section-2 > div.img-section2{
+
+}
+
+/* Text in the section 2 */
+
+article.section-2 > div.text-section2{
+
+}
+
+article.section-2 > div.text-section2 > h2{
+
+}
+
+article.section-2 > div.text-section2 > p{
+
+}
+
+article.section-2 > div.text-section2 > a{
+
+}
+
+/*       ---- The section-2 end----     */
+
+
+/*           ---- section-3 ----        */
+
+article.section-3{
+
+}
+
+article.section-3 > div.img-section3{
+	
+}
+
+/* Section 3 - box 1 */
+
+article.section-3 > div.box-1{
+
+}
+
+article.section-3 > div.box-1 > p{
+
+}
+
+article.section-3 > div.box-1 > img{
+
+}
+
+article.section-3 > div.box-1 > h2{
+
+}
+
+article.section-3 > div.box-1 > h5{
+
+}
+
+/* The Section 3 - box 1 end */
+
+/* Section 3 - box 2 */
+
+article.section-3 > div.box-2{
+
+}
+
+article.section-3 > div.box-2 > p{
+
+}
+
+article.section-3 > div.box-2 > img{
+
+}
+
+article.section-3 > div.box-2 > h2{
+
+}
+
+article.section-3 > div.box-2 > h5{
+
+}
+
+/* The Section 3 - box 2 end */
+
+/* Section 3 - box 3 */
+
+article.section-3 > div.box-3{
+
+}
+
+article.section-3 > div.box-3 > p{
+
+}
+
+article.section-3 > div.box-3 > img{
+
+}
+
+article.section-3 > div.box-3 > h2{
+
+}
+
+article.section-3 > div.box-3 > h5{
+
+}
+
+/* The Section 3 - box 1 end */
+
+/*       ---- The section-3 end----     */
+
+/*                          -------------------The Content end------------------                              */
+
+
+
+
+
+/*                              -------------------Footer------------------                                   */
+
+footer{
+	background-color: hsl(216, 53%, 9%);
+}
+
+/* icon-footer */
+
+footer > div.icon-footer{
+	
+}
+
+/* Description-Footer */
+
+footer > div.description-footer{
+	
+}
+
+footer > div.description-footer > p{
+	
+}
+
+/* Contacts 1 */
+
+footer > div.contacts-footer{
+	
+}
+
+footer > div.contacts-footer > span{
+	
+}
+
+/* Contacts 2 */
+
+footer > nav.contacts2-footer{
+	
+}
+
+footer > nav.contacts2-footer > ul{
+	
+}
+
+footer > nav.contacts2-footer > ul > li{
+	
+}
+
+/* Contacts 3 */
+
+footer > nav.contacts3-footer{
+	
+}
+
+footer > nav.contacts3-footer > ul{
+	
+}
+
+footer > nav.contacts3-footer > ul > li{
+	
+}
+
+/* Contacts 4 */
+
+footer > nav.contacts4-footer{
+	
+}
+
+footer > nav.contacts4-footer > ul{
+	
+}
+
+footer > nav.contacts4-footer > ul > li{
+	
+}
+
+/*                          -------------------The footer end------------------                               */
