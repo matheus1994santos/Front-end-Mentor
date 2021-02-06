@@ -162,7 +162,7 @@ article.section-1 > section.container > div.sec1{
 	width: 320px;
 	height: 240px;
 	margin: 20px 4% 0 2%;
-	border: 0.6px solid white;
+	/* border: 0.6px solid white; */
 	/* background-color: red; */
 }
 
@@ -188,7 +188,7 @@ article.section-1 > section.container > div.sec2{
 	width: 320px;
 	height: 240px;
 	margin: 20px 4% 0 6%;
-	border: 0.6px solid white;
+	/* border: 0.6px solid white; */
 }
 
 article.section-1 > section.container > div.sec2 > img{
@@ -213,7 +213,7 @@ article.section-1 > section.container > div.sec3{
 	width: 320px;
 	height: 240px;
 	margin: 20px 4% 0 2%;
-	border: 0.6px solid white;
+	/* border: 0.6px solid white; */
 }
 
 article.section-1 > section.container > div.sec3 > img{
@@ -236,7 +236,7 @@ article.section-1 > section.container > div.sec4{
 	width: 320px;
 	height: 240px;
 	margin: 20px 4% 0 6%;
-	border: 0.6px solid white;
+	/* border: 0.6px solid white; */
 }
 
 article.section-1 > section.container > div.sec4 > img{
