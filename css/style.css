@@ -261,31 +261,44 @@ article.section-1 > section.container > div.sec4 > p{
 /*           ---- section-2 ----        */
 
 article.section-2{
-
+	display: inline-block;
+	width: 96%;
+	height: 510px;
+	margin: 0 2%;
+	border: 0.6px solid white;
 }
 
 /* image in the section 2 */
 
 article.section-2 > div.img-section2{
+	float: left;
+	width: 615px;
+	height: 465px;
+	background-image: url('../images/illustration-stay-productive.png');
 
 }
 
 /* Text in the section 2 */
 
 article.section-2 > div.text-section2{
-
+	float: left;
+	width: 460px;
+	height: 390px;
 }
 
 article.section-2 > div.text-section2 > h2{
-
+	font-size: 48px;
+	color: white;
 }
 
 article.section-2 > div.text-section2 > p{
-
+	width: 460px;
+	color: rgba(255, 255, 255, 0.685);
+	font-size: 22px;
 }
 
 article.section-2 > div.text-section2 > a{
-
+	color: rgba(255, 255, 255, 0.685);
 }
 
 /*       ---- The section-2 end----     */
