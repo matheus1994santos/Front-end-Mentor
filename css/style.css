@@ -459,7 +459,7 @@ article.form-email{
 article.form-email > div.box-form{
 	display: inline-block;
 	max-width: 640px;
-	height: 180px;
+	height: auto;
 	background-color:hsl(217, 26%, 16%);
 	border-radius: 5px 8px;
 	box-shadow: 4px 4px rgba(0, 0, 0, 0.178);
@@ -473,7 +473,7 @@ article.form-email > div.box-form > h2{
 
 article.form-email > div.box-form > p{
 	margin: 8px 70px 0 70px;
-	color: white;
+	color: rgba(255, 255, 255, 0.685);
 }
 
 article.form-email > div.box-form > form{
@@ -486,7 +486,7 @@ article.form-email > div.box-form > form > input#email-form{
 	height: 45px;
 	border: none;
     outline: 0;
-	margin: 0 24px;
+	margin: 0 24px 4px 24px;
 	text-align: center;
 }
 
@@ -495,6 +495,7 @@ article.form-email > div.box-form > form > input[type=button]{
 	height: 45px;
 	background-color: hsl(176, 68%, 64%);
 	border-radius: 34px 34px;
+	margin: 0 24px 25px 24px;
 	border: none;
 	cursor: pointer;
 	color: white;
@@ -504,75 +505,106 @@ article.form-email > div.box-form > form > input[type=button]{
 /*                              -------------------Footer------------------                                   */
 
 footer{
+	display: inline-block;
+	width: 100%;
 	background-color: hsl(216, 53%, 9%);
+	height: auto;
 }
 
 /* icon-footer */
 
-footer > div.icon-footer{
-	
+footer > section.container{
+	margin-top: 100px;
+}
+
+footer > section.container > div.icon-footer{
+	width: 80px;
+	height: 25px;
+	background-image: url('../images/logo.svg');
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 /* Description-Footer */
 
-footer > div.description-footer{
-	
+footer > section.container > div.description-footer{
+	/* color: rgba(255, 255, 255, 0.685); */
+	float: left;
+	width: 300px;
+	height: 160px;
+	margin: 15px 10px 0 10px;
 }
 
-footer > div.description-footer > p{
-	
+footer > section.container > div.description-footer > p{
+	color: rgba(255, 255, 255, 0.685);
+	width: 250px;
+	display: inline-block;
 }
 
 /* Contacts 1 */
 
-footer > div.contacts-footer{
-	
+footer > section.container > div.contacts-footer{
+	float: left;
+	width: 200px;
+	height: 160px;
+	margin: 15px 10px 0 10px;
 }
 
-footer > div.contacts-footer > span{
-	
+footer > section.container > div.contacts-footer > ul > li{
+	color: rgba(255, 255, 255, 0.685);
 }
 
 /* Contacts 2 */
 
-footer > nav.contacts2-footer{
-	
+footer > section.container > nav.contact2-footer{
+	float: left;
+	width: 200px;
+	height: 160px;
+	margin: 15px 10px 0 10px;
 }
 
-footer > nav.contacts2-footer > ul{
-	
+footer > section.container > section.container > nav.contacts-footer > ul{
+	float: left;
 }
 
-footer > nav.contacts2-footer > ul > li{
-	
+footer > section.container > nav.contact2-footer > ul > li{
+	color: rgba(255, 255, 255, 0.685);
 }
 
 /* Contacts 3 */
 
-footer > nav.contacts3-footer{
+footer > section.container > nav.contact3-footer{
+	float: left;
+	width: 200px;
+	height: 160px;
+	margin: 15px 10px 0 10px;
+}
+
+footer > section.container > nav.contact3-footer > ul{
 	
 }
 
-footer > nav.contacts3-footer > ul{
-	
-}
-
-footer > nav.contacts3-footer > ul > li{
-	
+footer > section.container > nav.contact3-footer > ul > li{
+	color: rgba(255, 255, 255, 0.685);
 }
 
 /* Contacts 4 */
 
-footer > nav.contacts4-footer{
+footer > section.container > nav.contact4-footer{
+	float: left;
+	width: 200px;
+	height: 160px;
+	margin: 15px 10px 0 10px;
+}
+
+footer > section.container > nav.contact4-footer > ul{
 	
 }
 
-footer > nav.contacts4-footer > ul{
-	
-}
-
-footer > nav.contacts4-footer > ul > li{
-	
+footer > section.container > nav.contact4-footer > ul > li{
+	color: rgba(255, 255, 255, 0.685);
+	display: inline-block;
+	padding: 0 5px;
 }
 
 /*                          -------------------The footer end------------------                               */
