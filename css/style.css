@@ -276,7 +276,7 @@ article.section-2 > img.img-section2{
 	float: left;
 	width: 45%;
 	min-width: 450px;
-	margin: 0 2%;
+	margin: 0 2% 0 6%;
 }
 
 /* Text in the section 2 */
@@ -303,7 +303,18 @@ article.section-2 > div.text-section2 > p{
 }
 
 article.section-2 > div.text-section2 > a{
+	color: rgb(24, 133, 184);
+	border-bottom: 0.8px solid rgb(24, 133, 184);
+}
+
+article.section-2 > div.text-section2 > a:hover{
 	color: rgba(255, 255, 255, 0.685);
+	border-bottom: 0.8px solid rgba(255, 255, 255, 0.685);
+}
+
+article.section-2 > div.text-section2 > a > img{
+	position: relative;
+	top: 3px;
 }
 
 /*       ---- The section-2 end----     */
@@ -321,7 +332,7 @@ article.section-3{
 article.section-3 > div.z-index{
 	float: left;
 	position: relative;
-	margin: 40px 0 60px 6.5%;
+	margin: 40px 0 60px 5%;
 	height:290px;
 }
 
@@ -362,10 +373,15 @@ article.section-3 > div.z-index > div.box-1 > img{
 
 article.section-3 > div.z-index > div.box-1 > h3{
 	color: white;
+	display: inline-block;
+	width: 270px;
+	margin-left: 8px;
 }
 
 article.section-3 > div.z-index > div.box-1 > h5{
 	color: rgba(255, 255, 255, 0.685);
+	display: inline-block;
+	margin-left: 10px;
 }
 
 /* The Section 3 - box 1 end */
@@ -395,10 +411,15 @@ article.section-3 > div.box-2 > img{
 
 article.section-3 > div.box-2 > h3{
 	color: white;
+	display: inline-block;
+	width: 270px;
+	margin-left: 8px;
 }
 
 article.section-3 > div.box-2 > h5{
 	color: rgba(255, 255, 255, 0.685);
+	display: inline-block;
+	margin-left: 10px;
 }
 
 /* The Section 3 - box 2 end */
@@ -429,10 +450,15 @@ article.section-3 > div.box-3 > img{
 
 article.section-3 > div.box-3 > h3{
 	color: white;
+	display: inline-block;
+	width: 270px;
+	margin-left: 8px;
 }
 
 article.section-3 > div.box-3 > h5{
 	color: rgba(255, 255, 255, 0.685);
+	display: inline-block;
+	margin-left: 10px;
 }
 
 /* The Section 3 - box 1 end */
@@ -464,6 +490,7 @@ article.form-email > div.box-form{
 	background-color:hsl(217, 26%, 16%);
 	border-radius: 5px 8px;
 	box-shadow: 4px 4px rgba(0, 0, 0, 0.178);
+	margin-left: -30px;
 	
 }
 
@@ -532,6 +559,8 @@ footer > section.container > div.icon-footer{
 	background-image: url('../images/logo.svg');
 	background-size: 100%;
 	background-repeat: no-repeat;
+	margin-left: 10px;
+	margin-bottom: 18px;
 }
 
 /* Description-Footer */
@@ -544,10 +573,17 @@ footer > section.container > div.description-footer{
 	margin: 15px 10px 0 10px;
 }
 
+footer > section.container > div.description-footer > img{
+	display: inline-block;
+	margin-bottom: 40px;
+}
+
 footer > section.container > div.description-footer > p{
 	color: rgba(255, 255, 255, 0.685);
 	width: 250px;
 	display: inline-block;
+	margin-left: 8px;
+	margin-top: 8px;
 }
 
 /* Contacts 1 */
@@ -561,12 +597,23 @@ footer > section.container > div.contacts-footer{
 
 footer > section.container > div.contacts-footer > ul > li{
 	color: rgba(255, 255, 255, 0.685);
+	list-style-type: none;
+	margin-top: 8px;
 }
 
-footer > section.container > div.contacts-footer > ul > li:hover{
+footer > section.container > div.contacts-footer > ul > li > a:hover{
 	color: white;
 	font-weight: 700;
 	cursor: pointer;
+}
+
+footer > section.container > div.contacts-footer > ul > li > img{
+
+}
+
+footer > section.container > div.contacts-footer > ul > li > a{
+	color: rgba(255, 255, 255, 0.685);
+	margin-left: 8px;
 }
 
 /* Contacts 2 */
@@ -584,6 +631,8 @@ footer > section.container > section.container > nav.contacts-footer > ul{
 
 footer > section.container > nav.contact2-footer > ul > li{
 	color: rgba(255, 255, 255, 0.685);
+	list-style-type: none;
+	margin-top: 4px;
 }
 
 footer > section.container > nav.contact2-footer > ul > li:hover{
@@ -607,6 +656,8 @@ footer > section.container > nav.contact3-footer > ul{
 
 footer > section.container > nav.contact3-footer > ul > li{
 	color: rgba(255, 255, 255, 0.685);
+	list-style-type: none;
+	margin-top: 4px;
 }
 
 footer > section.container > nav.contact3-footer > ul > li:hover{
@@ -621,7 +672,7 @@ footer > section.container > nav.contact4-footer{
 	float: left;
 	width: 200px;
 	height: 160px;
-	margin: 15px 10px 0 10px;
+	margin: 8px 10px 0 5px;
 }
 
 footer > section.container > nav.contact4-footer > ul{
@@ -629,13 +680,52 @@ footer > section.container > nav.contact4-footer > ul{
 }
 
 footer > section.container > nav.contact4-footer > ul > li{
+	list-style: none;
+	text-align: center;
+	float: left;
+	margin-left: 15px;
+	width: 35px;
+	height: 35px;
+}
+
+
+
+footer > section.container > nav.contact4-footer > ul > li > a{
 	color: rgba(255, 255, 255, 0.685);
 	display: inline-block;
 	padding: 0 5px;
+	font-size: 15px;
+	font-weight: 400;
+	margin-top: 8px;
+	border: 0.8px solid white;
+	border-radius: 16px 16px;
+	width: 30px;
+	height: 30px;
+	display: inline-flex;
+	justify-content: center;
+	-webkit-align-items: center;
+    -webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
 
-footer > section.container > nav.contact4-footer > ul > li:hover{
-	color: white;
+footer > section.container > nav.contact4-footer > ul > li > a.fa-facebook:hover{
+	color: #2f55a4;
+	border: 0.8px solid #2f55a4;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+footer > section.container > nav.contact4-footer > ul > li > a.fa-twitter:hover{
+	color: rgb(0, 174, 255);
+	border: 0.8px solid rgb(0, 174, 255);
+	font-weight: 700;
+	cursor: pointer;
+}
+
+footer > section.container > nav.contact4-footer > ul > li > a.fa-instagram:hover{
+	color: #d136a0;
+	border: 0.8px solid #bc2a8d;
 	font-weight: 700;
 	cursor: pointer;
 }
