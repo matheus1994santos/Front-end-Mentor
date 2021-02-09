@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 }
 
-body{ height: 100%; background-color: hsl(218, 28%, 13%);}
+body{ height: 100%; background-color: hsl(218, 28%, 13%); Font-size: 14px; font-family: 'Open Sans', sans-serif; font-weight: 300;}
 
 
 /* Standard elements*/
@@ -17,25 +17,37 @@ a{
 .clear{clear: both;}
 
 .container, #container{
-	max-width: 1440px; padding: 0 2%; margin: 0 auto;
+	max-width: 1280px; padding: 0 2%; margin: 0 auto;
 }
 
 /*                              -------------------Header------------------                                   */
 
 section.header{
-
+	width: 100%;
+	height: 930px;
+	margin-bottom: 18px;
 }
 
 section.header > header.container{
-	
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	margin:39px 2%;
 }
 
 section.header > header.container > div.logo{
-	
+	display: inline-block;
+	width: 130px;
+	height: 40px;
+	background-image: url('../images/logo.svg');
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 section.header > header.container > nav.menu-container{
-	
+	float: right;
+	padding: 11px 0;
+	margin-right: 6px;
 }
 
 section.header > header.container > nav.menu-container > ul.menu-desktop{
@@ -43,34 +55,90 @@ section.header > header.container > nav.menu-container > ul.menu-desktop{
 }
 
 section.header > header.container > nav.menu-container > ul.menu-desktop > li{
-	
+	display: inline-block;
+	margin: 0 20px;
 }
 
 section.header > header.container > nav.menu-container > ul.menu-desktop > li > a{
-	
+	color: hsla(0, 0%, 100%, 0.514);
+	font-size: 17px;
+}
+
+section.header > header.container > nav.menu-container > ul.menu-desktop > li > a:hover{
+	border-bottom: 0.8px solid white;
+	color: white;
 }
 
 /* content-header */
 
 section.header > div.content-header{
+	display: inline-block;
+	width: 96%;
+	height: 830px;
+	/* border-top: 1px solid lightcoral; */
+	text-align: center;
+	padding: 0 2%;
+	margin: 0 2%;
+}
+
+section.header > div.content-header > img{
+	max-width: 720px;
+	width: 102%;
+	margin: 18px 2% 8px 2%;
+}
+
+section.header > div.content-header > div.box-text{
+	display: inline-block;
+	max-width: 780px;
+	width: 100%;
+	height: auto;
+}
+
+section.header > div.content-header > div.box-text > h2{
+	display: inline-block;
+	font-size: 45px;
+	width: 99%;
+	height: 100px;
+	color: white;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+
+section.header > div.content-header > div.box-text > p{
+	color: rgba(255, 255, 255, 0.685);
+	display: inline-block;
+	margin: 22px 0;
+	font-size: 18px;
+	width:64%;
+	min-width: 339px;
+	text-align: center;
+}
+
+section.header > div.content-header > div > div.btn-1{
+	display: inline-block;
+	width: 235px;
+	height: 45px;
+	background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+	border-radius: 34px 34px;
+	cursor: pointer;
+}
+
+section.header > div.content-header > div > div.btn-1 > h3{
+	color: rgba(255, 255, 255, 0.767);
+	margin-top: 12px;
+	font-size: 19px;
+	cursor: pointer;
+}
+
+/*-------------------  ----------       header Media Query        ------------- -----------------*/
+
+@media screen and (max-width: ) {
 	
 }
 
-section.header > div.content-header > div.img-header{
-	
-}
+/*-------------------  ----------       FINAL header Media Query        ------------- -----------------*/
 
-section.header > div.content-header > h2{
-	
-}
-
-section.header > div.content-header > p{
-	
-}
-
-section.header > div.content-header > div.btn-1{
-	
-}
 /*                          -------------------The Header end------------------                               */
 
 
@@ -81,66 +149,130 @@ section.header > div.content-header > div.btn-1{
 
 /* ---- section-1 ---- */
 article.section-1{
-
+	display: inline-block;
+	width: 96%;
+	height: auto;
+	margin-right: 2%;
+	margin-left: 2%;
+	text-align: center;
 }
 
 article.section-1 > section.container{
-
+	display: inline-block;
+	max-width: 814px;
+	height: auto;
+	margin: 100px 2% 100px 2%;
 }
 
 /* sec1 */
 article.section-1 > section.container > div.sec1{
-
+	float: left;
+	width: 320px;
+	height: 240px;
+	margin: 20px 4% 0 2%;
 }
 
 article.section-1 > section.container > div.sec1 > img{
-
+	margin: 18px 0;
 }
 
 article.section-1 > section.container > div.sec1 > h2{
-
+	color: white;
+	margin-top: 2px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
 }
 
 article.section-1 > section.container > div.sec1 > p{
-
+	width: 320px;
+	margin-top: 8px;
+	color: rgba(255, 255, 255, 0.685);
 }
 /* End sec1 */
 
 /* sec2 */
 article.section-1 > section.container > div.sec2{
-
+	float: right;
+	width: 320px;
+	height: 240px;
+	margin: 20px 4% 0 6%;
 }
 
 article.section-1 > section.container > div.sec2 > img{
-
+	margin: 18px 0;
 }
 
 article.section-1 > section.container > div.sec2 > h2{
-
+	color: white;
+	margin-top: 2px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
 }
 
 article.section-1 > section.container > div.sec2 > p{
-
+	width: 320px;
+	margin-top: 8px;
+	color: rgba(255, 255, 255, 0.685);
 }
 /* End sec2 */
 
 /* sec3 */
 article.section-1 > section.container > div.sec3{
-
+	float: left;
+	width: 320px;
+	height: 240px;
+	margin: 20px 4% 0 2%;
 }
 
 article.section-1 > section.container > div.sec3 > img{
-
+	margin: 18px 0;
 }
 
 article.section-1 > section.container > div.sec3 > h2{
-
+	color: white;
+	margin-top: 2px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
 }
 
 article.section-1 > section.container > div.sec3 > p{
+	width: 320px;
+	margin-top: 8px;
+	color: rgba(255, 255, 255, 0.685);
+}
 
+article.section-1 > section.container > div.sec4{
+	float: right;
+	width: 320px;
+	height: 240px;
+	margin: 20px 4% 0 6%;
+}
+
+article.section-1 > section.container > div.sec4 > img{
+	margin: 18px 0;
+}
+
+article.section-1 > section.container > div.sec4 > h2{
+	color: white;
+	margin-top: 2px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+
+article.section-1 > section.container > div.sec4 > p{
+	width: 320px;
+	margin-top: 8px;
+	color: rgba(255, 255, 255, 0.685);
 }
 /* End sec3 */
+
+/*-------------------  ----------       Section-1 Media Query        ------------- -----------------*/
+
+@media screen and (max-width: ) {
+
+}
+
+/*-------------------  ----------       FINAL Section-1 Media Query        ------------- -----------------*/
 
 /*       ---- The section-1 end----     */
 
@@ -148,32 +280,66 @@ article.section-1 > section.container > div.sec3 > p{
 /*           ---- section-2 ----        */
 
 article.section-2{
-
+	display: inline-block;
+	width: 96%;
+	height: auto;
+	margin: 0 2%;
 }
 
 /* image in the section 2 */
 
-article.section-2 > div.img-section2{
-
+article.section-2 > img.img-section2{
+	float: left;
+	width: 45%;
+	min-width: 450px;
+	margin: 0 2% 0 6%;
 }
 
 /* Text in the section 2 */
 
 article.section-2 > div.text-section2{
-
+	float: left;
+	min-width: 340px;
+	width: 35%;
+	height: auto;
+	margin: 105px 52px;
 }
 
 article.section-2 > div.text-section2 > h2{
-
+	font-size: 48px;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
 }
 
 article.section-2 > div.text-section2 > p{
-
+	/* width: 460px; */
+	color: rgba(255, 255, 255, 0.685);
+	font-size: 22px;
 }
 
 article.section-2 > div.text-section2 > a{
+	color: rgb(24, 133, 184);
+	border-bottom: 0.8px solid rgb(24, 133, 184);
+}
+
+article.section-2 > div.text-section2 > a:hover{
+	color: rgba(255, 255, 255, 0.685);
+	border-bottom: 0.8px solid rgba(255, 255, 255, 0.685);
+}
+
+article.section-2 > div.text-section2 > a > img{
+	position: relative;
+	top: 3px;
+}
+
+/*-------------------  ----------       Section-2 Media Query        ------------- -----------------*/
+
+@media screen and (max-width: ) {
 
 }
+
+/*-------------------  ----------       FINAL Section-2 Media Query        ------------- -----------------*/
 
 /*       ---- The section-2 end----     */
 
@@ -181,57 +347,111 @@ article.section-2 > div.text-section2 > a{
 /*           ---- section-3 ----        */
 
 article.section-3{
-
+	display: inline-block;
+	width: 96%;
+	height: auto;
+	margin: 0 2%;
 }
 
-article.section-3 > div.img-section3{
-	
+article.section-3 > div.z-index{
+	float: left;
+	position: relative;
+	margin: 40px 0 60px 5%;
+	height:290px;
+}
+
+article.section-3 > div.z-index > img.img-section3{
+	float: left;
+	position: absolute;
+	top: 9px;
+	left: -8px;
+	z-index: 0;
 }
 
 /* Section 3 - box 1 */
 
-article.section-3 > div.box-1{
+
+
+article.section-3 > div.z-index > div.box-1{
+	float: left;
+	position: relative;
+	width: 360px;
+	height:230px;
+	margin-top: 40px;
+	background-color: hsl(219, 30%, 18%);
+	z-index: 1;
+}
+
+article.section-3  > div.z-index > div.box-1 > p{
+	color: rgba(255, 255, 255, 0.685);
+	font-size: 18px;
+	margin: 44px 10px 0 30px;
+}
+
+article.section-3 > div.z-index > div.box-1 > img{
+	float: left;
+	width: 31px;
+	border-radius: 13px 14px;
+	margin-left: 27px;
+}
+
+article.section-3 > div.z-index > div.box-1 > h3{
+	color: white;
+	display: inline-block;
+	width: 270px;
+	margin-left: 8px;
+}
+
+article.section-3 > div.z-index > div.box-1 > h5{
+	color: rgba(255, 255, 255, 0.685);
+	display: inline-block;
+	margin-left: 10px;
+}
+
+/*-------------------  ----------       Section-3 Media Query        ------------- -----------------*/
+
+@media screen and (max-width: ) {
 
 }
 
-article.section-3 > div.box-1 > p{
-
-}
-
-article.section-3 > div.box-1 > img{
-
-}
-
-article.section-3 > div.box-1 > h2{
-
-}
-
-article.section-3 > div.box-1 > h5{
-
-}
+/*-------------------  ----------       FINAL Section-3 Media Query        ------------- -----------------*/
 
 /* The Section 3 - box 1 end */
 
 /* Section 3 - box 2 */
 
 article.section-3 > div.box-2{
-
+	float: left;
+	width: 360px;
+	height:230px;
+	margin: 80px 0 80px 36px;
+	background-color: hsl(219, 30%, 18%);
 }
 
 article.section-3 > div.box-2 > p{
-
+	color: rgba(255, 255, 255, 0.685);
+	font-size: 18px;
+	margin: 44px 10px 0 30px;
 }
 
 article.section-3 > div.box-2 > img{
-
+	float: left;
+	width: 31px;
+	border-radius: 13px 14px;
+	margin-left: 27px;
 }
 
-article.section-3 > div.box-2 > h2{
-
+article.section-3 > div.box-2 > h3{
+	color: white;
+	display: inline-block;
+	width: 270px;
+	margin-left: 8px;
 }
 
 article.section-3 > div.box-2 > h5{
-
+	color: rgba(255, 255, 255, 0.685);
+	display: inline-block;
+	margin-left: 10px;
 }
 
 /* The Section 3 - box 2 end */
@@ -239,24 +459,47 @@ article.section-3 > div.box-2 > h5{
 /* Section 3 - box 3 */
 
 article.section-3 > div.box-3{
-
+	float: left;
+	width: 360px;
+	height:230px;
+	margin: 80px 4% 80px 36px;
+	padding-bottom: 80px;
+	background-color: hsl(219, 30%, 18%);
 }
 
 article.section-3 > div.box-3 > p{
-
+	color: rgba(255, 255, 255, 0.685);
+	font-size: 18px;
+	margin: 44px 10px 0 30px;
 }
 
 article.section-3 > div.box-3 > img{
-
+	float: left;
+	width: 31px;
+	border-radius: 13px 14px;
+	margin-left: 27px;
 }
 
-article.section-3 > div.box-3 > h2{
-
+article.section-3 > div.box-3 > h3{
+	color: white;
+	display: inline-block;
+	width: 270px;
+	margin-left: 8px;
 }
 
 article.section-3 > div.box-3 > h5{
+	color: rgba(255, 255, 255, 0.685);
+	display: inline-block;
+	margin-left: 10px;
+}
+
+/*-------------------  ----------       Section-3 Media Query        ------------- -----------------*/
+
+@media screen and (max-width: ) {
 
 }
+
+/*-------------------  ----------       FINAL Section-3 Media Query        ------------- -----------------*/
 
 /* The Section 3 - box 1 end */
 
@@ -264,82 +507,283 @@ article.section-3 > div.box-3 > h5{
 
 /*                          -------------------The Content end------------------                              */
 
+/*                          -------------------  Form E-mail  ------------------                              */
 
 
+
+/*                          ---------------- The Form E-mail end ---------------                              */
+
+article.form-email{
+	display: inline-block;
+	width: 96%;
+	height: auto;
+	margin: 0 2%;
+	text-align: center;
+	position: relative;
+	top: 70px;
+}
+
+article.form-email > div.box-form{
+	display: inline-block;
+	max-width: 640px;
+	height: auto;
+	background-color:hsl(217, 26%, 16%);
+	border-radius: 5px 8px;
+	box-shadow: 4px 4px rgba(0, 0, 0, 0.178);
+	margin-left: -30px;
+	
+}
+
+article.form-email > div.box-form > h2{
+	margin: 0 120px;
+	color: white;
+}
+
+article.form-email > div.box-form > p{
+	margin: 8px 70px 0 70px;
+	color: rgba(255, 255, 255, 0.685);
+}
+
+article.form-email > div.box-form > form > div{
+	display: inline-block;
+}
+
+article.form-email > div.box-form > form > div > h5{
+	color: hsl(0, 100%, 63%);
+}
+
+article.form-email > div.box-form > form > div > input#email-form{
+	border-radius: 34px 34px;
+	width: 260px;
+	height: 45px;
+	border: none;
+    outline: 0;
+	margin: 0 24px 4px 24px;
+	text-align: center;
+}
+
+article.form-email > div.box-form > form > div > input::placeholder{
+	color: rgba(204, 204, 204, 0.76);
+}
+
+article.form-email > div.box-form > form > input[type=button]{
+	width: 180px;
+	height: 45px;
+	background-color: hsl(176, 68%, 64%);
+	border-radius: 34px 34px;
+	margin: 0 24px 25px 24px;
+	border: none;
+	cursor: pointer;
+	color: white;
+}
+
+/*-------------------  ----------       Form Email Media Query        ------------- -----------------*/
+
+@media screen and (max-width: ) {
+
+}
+
+/*-------------------  ----------       FINAL Form Email Media Query        ------------- -----------------*/
 
 
 /*                              -------------------Footer------------------                                   */
 
 footer{
+	display: inline-block;
+	width: 100%;
 	background-color: hsl(216, 53%, 9%);
+	height: auto;
 }
 
 /* icon-footer */
 
-footer > div.icon-footer{
-	
+footer > section.container{
+	margin-top: 100px;
+}
+
+footer > section.container > div.icon-footer{
+	width: 80px;
+	height: 25px;
+	background-image: url('../images/logo.svg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-left: 10px;
+	margin-bottom: 18px;
 }
 
 /* Description-Footer */
 
-footer > div.description-footer{
-	
+footer > section.container > div.description-footer{
+	/* color: rgba(255, 255, 255, 0.685); */
+	float: left;
+	width: 300px;
+	height: 160px;
+	margin: 15px 10px 0 10px;
 }
 
-footer > div.description-footer > p{
-	
+footer > section.container > div.description-footer > img{
+	display: inline-block;
+	margin-bottom: 40px;
+}
+
+footer > section.container > div.description-footer > p{
+	color: rgba(255, 255, 255, 0.685);
+	width: 250px;
+	display: inline-block;
+	margin-left: 8px;
+	margin-top: 8px;
 }
 
 /* Contacts 1 */
 
-footer > div.contacts-footer{
-	
+footer > section.container > div.contacts-footer{
+	float: left;
+	width: 200px;
+	height: 160px;
+	margin: 15px 10px 0 10px;
 }
 
-footer > div.contacts-footer > span{
-	
+footer > section.container > div.contacts-footer > ul > li{
+	color: rgba(255, 255, 255, 0.685);
+	list-style-type: none;
+	margin-top: 8px;
+}
+
+footer > section.container > div.contacts-footer > ul > li > a:hover{
+	color: white;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+footer > section.container > div.contacts-footer > ul > li > img{
+
+}
+
+footer > section.container > div.contacts-footer > ul > li > a{
+	color: rgba(255, 255, 255, 0.685);
+	margin-left: 8px;
 }
 
 /* Contacts 2 */
 
-footer > nav.contacts2-footer{
-	
+footer > section.container > nav.contact2-footer{
+	float: left;
+	width: 200px;
+	height: 160px;
+	margin: 15px 10px 0 10px;
 }
 
-footer > nav.contacts2-footer > ul{
-	
+footer > section.container > section.container > nav.contacts-footer > ul{
+	float: left;
 }
 
-footer > nav.contacts2-footer > ul > li{
-	
+footer > section.container > nav.contact2-footer > ul > li{
+	color: rgba(255, 255, 255, 0.685);
+	list-style-type: none;
+	margin-top: 4px;
+}
+
+footer > section.container > nav.contact2-footer > ul > li:hover{
+	color: white;
+	font-weight: 700;
+	cursor: pointer;
 }
 
 /* Contacts 3 */
 
-footer > nav.contacts3-footer{
+footer > section.container > nav.contact3-footer{
+	float: left;
+	width: 200px;
+	height: 160px;
+	margin: 15px 10px 0 10px;
+}
+
+footer > section.container > nav.contact3-footer > ul{
 	
 }
 
-footer > nav.contacts3-footer > ul{
-	
+footer > section.container > nav.contact3-footer > ul > li{
+	color: rgba(255, 255, 255, 0.685);
+	list-style-type: none;
+	margin-top: 4px;
 }
 
-footer > nav.contacts3-footer > ul > li{
-	
+footer > section.container > nav.contact3-footer > ul > li:hover{
+	color: white;
+	font-weight: 700;
+	cursor: pointer;
 }
 
 /* Contacts 4 */
 
-footer > nav.contacts4-footer{
+footer > section.container > nav.contact4-footer{
+	float: left;
+	width: 200px;
+	height: 160px;
+	margin: 8px 10px 0 5px;
+}
+
+footer > section.container > nav.contact4-footer > ul{
 	
 }
 
-footer > nav.contacts4-footer > ul{
-	
+footer > section.container > nav.contact4-footer > ul > li{
+	list-style: none;
+	text-align: center;
+	float: left;
+	margin-left: 15px;
+	width: 35px;
+	height: 35px;
 }
 
-footer > nav.contacts4-footer > ul > li{
-	
+
+
+footer > section.container > nav.contact4-footer > ul > li > a{
+	color: rgba(255, 255, 255, 0.685);
+	display: inline-block;
+	padding: 0 5px;
+	font-size: 15px;
+	font-weight: 400;
+	margin-top: 8px;
+	border: 0.8px solid white;
+	border-radius: 16px 16px;
+	width: 30px;
+	height: 30px;
+	display: inline-flex;
+	justify-content: center;
+	-webkit-align-items: center;
+    -webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
+
+footer > section.container > nav.contact4-footer > ul > li > a.fa-facebook:hover{
+	color: #2f55a4;
+	border: 0.8px solid #2f55a4;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+footer > section.container > nav.contact4-footer > ul > li > a.fa-twitter:hover{
+	color: rgb(0, 174, 255);
+	border: 0.8px solid rgb(0, 174, 255);
+	font-weight: 700;
+	cursor: pointer;
+}
+
+footer > section.container > nav.contact4-footer > ul > li > a.fa-instagram:hover{
+	color: #d136a0;
+	border: 0.8px solid #bc2a8d;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+/*-------------------  ----------       Footer Media Query        ------------- -----------------*/
+
+@media screen and (max-width: ) {
+
+}
+
+/*-------------------  ----------       FINAL footer Media Query        ------------- -----------------*/
 
 /*                          -------------------The footer end------------------                               */
