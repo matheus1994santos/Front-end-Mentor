@@ -131,6 +131,14 @@ section.header > div.content-header > div > div.btn-1 > h3{
 	cursor: pointer;
 }
 
+/*-------------------  ----------       header Media Query        ------------- -----------------*/
+
+@media screen and (max-width: ) {
+	
+}
+
+/*-------------------  ----------       FINAL header Media Query        ------------- -----------------*/
+
 /*                          -------------------The Header end------------------                               */
 
 
@@ -258,6 +266,14 @@ article.section-1 > section.container > div.sec4 > p{
 }
 /* End sec3 */
 
+/*-------------------  ----------       Section-1 Media Query        ------------- -----------------*/
+
+@media screen and (max-width: ) {
+
+}
+
+/*-------------------  ----------       FINAL Section-1 Media Query        ------------- -----------------*/
+
 /*       ---- The section-1 end----     */
 
 
@@ -316,6 +332,14 @@ article.section-2 > div.text-section2 > a > img{
 	position: relative;
 	top: 3px;
 }
+
+/*-------------------  ----------       Section-2 Media Query        ------------- -----------------*/
+
+@media screen and (max-width: ) {
+
+}
+
+/*-------------------  ----------       FINAL Section-2 Media Query        ------------- -----------------*/
 
 /*       ---- The section-2 end----     */
 
@@ -383,6 +407,14 @@ article.section-3 > div.z-index > div.box-1 > h5{
 	display: inline-block;
 	margin-left: 10px;
 }
+
+/*-------------------  ----------       Section-3 Media Query        ------------- -----------------*/
+
+@media screen and (max-width: ) {
+
+}
+
+/*-------------------  ----------       FINAL Section-3 Media Query        ------------- -----------------*/
 
 /* The Section 3 - box 1 end */
 
@@ -461,6 +493,14 @@ article.section-3 > div.box-3 > h5{
 	margin-left: 10px;
 }
 
+/*-------------------  ----------       Section-3 Media Query        ------------- -----------------*/
+
+@media screen and (max-width: ) {
+
+}
+
+/*-------------------  ----------       FINAL Section-3 Media Query        ------------- -----------------*/
+
 /* The Section 3 - box 1 end */
 
 /*       ---- The section-3 end----     */
@@ -536,6 +576,14 @@ article.form-email > div.box-form > form > input[type=button]{
 	cursor: pointer;
 	color: white;
 }
+
+/*-------------------  ----------       Form Email Media Query        ------------- -----------------*/
+
+@media screen and (max-width: ) {
+
+}
+
+/*-------------------  ----------       FINAL Form Email Media Query        ------------- -----------------*/
 
 
 /*                              -------------------Footer------------------                                   */
@@ -729,5 +777,13 @@ footer > section.container > nav.contact4-footer > ul > li > a.fa-instagram:hove
 	font-weight: 700;
 	cursor: pointer;
 }
+
+/*-------------------  ----------       Footer Media Query        ------------- -----------------*/
+
+@media screen and (max-width: ) {
+
+}
+
+/*-------------------  ----------       FINAL footer Media Query        ------------- -----------------*/
 
 /*                          -------------------The footer end------------------                               */
