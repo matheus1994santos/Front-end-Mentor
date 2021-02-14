@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 }
 
-body{ height: 100%; background-color: hsl(218, 28%, 13%); Font-size: 14px; font-family: 'Open Sans', sans-serif; font-weight: 300;}
+body{ height: 100%; background-color: hsl(218, 28%, 13%); font-size: 14px; font-family: 'Open Sans', sans-serif; font-weight: 300;}
 
 
 /* Standard elements*/
@@ -131,14 +131,6 @@ section.header > div.content-header > div > div.btn-1 > h3{
 	cursor: pointer;
 }
 
-/*-------------------  ----------       header Media Query        ------------- -----------------*/
-
-@media screen and (max-width: ) {
-	
-}
-
-/*-------------------  ----------       FINAL header Media Query        ------------- -----------------*/
-
 /*                          -------------------The Header end------------------                               */
 
 
@@ -159,7 +151,7 @@ article.section-1{
 
 article.section-1 > section.container{
 	display: inline-block;
-	max-width: 814px;
+	max-width: 834px;
 	height: auto;
 	margin: 100px 2% 100px 2%;
 }
@@ -266,14 +258,6 @@ article.section-1 > section.container > div.sec4 > p{
 }
 /* End sec3 */
 
-/*-------------------  ----------       Section-1 Media Query        ------------- -----------------*/
-
-@media screen and (max-width: ) {
-
-}
-
-/*-------------------  ----------       FINAL Section-1 Media Query        ------------- -----------------*/
-
 /*       ---- The section-1 end----     */
 
 
@@ -299,14 +283,13 @@ article.section-2 > img.img-section2{
 
 article.section-2 > div.text-section2{
 	float: left;
-	min-width: 340px;
-	width: 35%;
+	width: 460px;
 	height: auto;
-	margin: 105px 52px;
+	margin: 105px 2%;
 }
 
 article.section-2 > div.text-section2 > h2{
-	font-size: 48px;
+	font-size: 42px;
 	color: white;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
@@ -315,7 +298,7 @@ article.section-2 > div.text-section2 > h2{
 article.section-2 > div.text-section2 > p{
 	/* width: 460px; */
 	color: rgba(255, 255, 255, 0.685);
-	font-size: 22px;
+	font-size: 16px;
 }
 
 article.section-2 > div.text-section2 > a{
@@ -333,14 +316,6 @@ article.section-2 > div.text-section2 > a > img{
 	top: 3px;
 }
 
-/*-------------------  ----------       Section-2 Media Query        ------------- -----------------*/
-
-@media screen and (max-width: ) {
-
-}
-
-/*-------------------  ----------       FINAL Section-2 Media Query        ------------- -----------------*/
-
 /*       ---- The section-2 end----     */
 
 
@@ -348,16 +323,15 @@ article.section-2 > div.text-section2 > a > img{
 
 article.section-3{
 	display: inline-block;
-	width: 96%;
+	width: 100%;
 	height: auto;
-	margin: 0 2%;
 }
+
 
 article.section-3 > div.z-index{
 	float: left;
 	position: relative;
-	margin: 40px 0 60px 5%;
-	height:290px;
+	margin: 40px 0 60px 8%;
 }
 
 article.section-3 > div.z-index > img.img-section3{
@@ -375,17 +349,17 @@ article.section-3 > div.z-index > img.img-section3{
 article.section-3 > div.z-index > div.box-1{
 	float: left;
 	position: relative;
-	width: 360px;
-	height:230px;
+	width: 350px;
+	/*height:230px;*/
 	margin-top: 40px;
 	background-color: hsl(219, 30%, 18%);
 	z-index: 1;
 }
 
-article.section-3  > div.z-index > div.box-1 > p{
+article.section-3 > div.z-index > div.box-1 > p{
 	color: rgba(255, 255, 255, 0.685);
-	font-size: 18px;
-	margin: 44px 10px 0 30px;
+	font-size: 17px;
+	margin: 44px 10px 10px 30px;
 }
 
 article.section-3 > div.z-index > div.box-1 > img{
@@ -393,28 +367,23 @@ article.section-3 > div.z-index > div.box-1 > img{
 	width: 31px;
 	border-radius: 13px 14px;
 	margin-left: 27px;
+	margin-bottom: 22px;
 }
 
 article.section-3 > div.z-index > div.box-1 > h3{
 	color: white;
 	display: inline-block;
-	width: 270px;
+	width: 230px;
+	font-size: 12px;
 	margin-left: 8px;
 }
 
 article.section-3 > div.z-index > div.box-1 > h5{
 	color: rgba(255, 255, 255, 0.685);
 	display: inline-block;
+	font-size: 11px;
 	margin-left: 10px;
 }
-
-/*-------------------  ----------       Section-3 Media Query        ------------- -----------------*/
-
-@media screen and (max-width: ) {
-
-}
-
-/*-------------------  ----------       FINAL Section-3 Media Query        ------------- -----------------*/
 
 /* The Section 3 - box 1 end */
 
@@ -422,16 +391,17 @@ article.section-3 > div.z-index > div.box-1 > h5{
 
 article.section-3 > div.box-2{
 	float: left;
-	width: 360px;
-	height:230px;
-	margin: 80px 0 80px 36px;
+	width: 348px;
+	/*height:230px;*/
+	margin: 80px 2% 80px 2%;
 	background-color: hsl(219, 30%, 18%);
 }
 
 article.section-3 > div.box-2 > p{
 	color: rgba(255, 255, 255, 0.685);
-	font-size: 18px;
-	margin: 44px 10px 0 30px;
+	width: 332px;
+	font-size: 17px;
+	margin: 44px 12px 10px 12px;
 }
 
 article.section-3 > div.box-2 > img{
@@ -439,18 +409,21 @@ article.section-3 > div.box-2 > img{
 	width: 31px;
 	border-radius: 13px 14px;
 	margin-left: 27px;
+	margin-bottom: 22px;
 }
 
 article.section-3 > div.box-2 > h3{
 	color: white;
 	display: inline-block;
-	width: 270px;
+	width: 230px;
+	font-size: 12px;
 	margin-left: 8px;
 }
 
 article.section-3 > div.box-2 > h5{
 	color: rgba(255, 255, 255, 0.685);
 	display: inline-block;
+	font-size: 12px;
 	margin-left: 10px;
 }
 
@@ -460,17 +433,18 @@ article.section-3 > div.box-2 > h5{
 
 article.section-3 > div.box-3{
 	float: left;
-	width: 360px;
-	height:230px;
-	margin: 80px 4% 80px 36px;
-	padding-bottom: 80px;
+	width: 348px;
+	/*height:230px;*/
+	margin: 80px 2% 80px 0%;
+	/*padding-bottom: 80px;*/
 	background-color: hsl(219, 30%, 18%);
 }
 
-article.section-3 > div.box-3 > p{
+article.section-3 div.box-3 > p{
 	color: rgba(255, 255, 255, 0.685);
-	font-size: 18px;
-	margin: 44px 10px 0 30px;
+	font-size: 17px;
+	width: 332px;
+	margin: 44px 12px 13px 12px;
 }
 
 article.section-3 > div.box-3 > img{
@@ -478,28 +452,23 @@ article.section-3 > div.box-3 > img{
 	width: 31px;
 	border-radius: 13px 14px;
 	margin-left: 27px;
+	margin-bottom: 20px;
 }
 
 article.section-3 > div.box-3 > h3{
 	color: white;
 	display: inline-block;
-	width: 270px;
+	width: 220px;
+	font-size: 12px;
 	margin-left: 8px;
 }
 
 article.section-3 > div.box-3 > h5{
 	color: rgba(255, 255, 255, 0.685);
 	display: inline-block;
+	font-size: 12px;
 	margin-left: 10px;
 }
-
-/*-------------------  ----------       Section-3 Media Query        ------------- -----------------*/
-
-@media screen and (max-width: ) {
-
-}
-
-/*-------------------  ----------       FINAL Section-3 Media Query        ------------- -----------------*/
 
 /* The Section 3 - box 1 end */
 
@@ -577,15 +546,6 @@ article.form-email > div.box-form > form > input[type=button]{
 	color: white;
 }
 
-/*-------------------  ----------       Form Email Media Query        ------------- -----------------*/
-
-@media screen and (max-width: ) {
-
-}
-
-/*-------------------  ----------       FINAL Form Email Media Query        ------------- -----------------*/
-
-
 /*                              -------------------Footer------------------                                   */
 
 footer{
@@ -636,30 +596,30 @@ footer > section.container > div.description-footer > p{
 
 /* Contacts 1 */
 
-footer > section.container > div.contacts-footer{
+footer > section.container > nav.contacts-footer{
 	float: left;
 	width: 200px;
 	height: 160px;
 	margin: 15px 10px 0 10px;
 }
 
-footer > section.container > div.contacts-footer > ul > li{
+footer > section.container > nav.contacts-footer > ul > li{
 	color: rgba(255, 255, 255, 0.685);
 	list-style-type: none;
 	margin-top: 8px;
 }
 
-footer > section.container > div.contacts-footer > ul > li > a:hover{
+footer > section.container > nav.contacts-footer > ul > li > a:hover{
 	color: white;
 	font-weight: 700;
 	cursor: pointer;
 }
 
-footer > section.container > div.contacts-footer > ul > li > img{
+footer > section.container > nav.contacts-footer > ul > li > img{
 
 }
 
-footer > section.container > div.contacts-footer > ul > li > a{
+footer > section.container > nav.contacts-footer > ul > li > a{
 	color: rgba(255, 255, 255, 0.685);
 	margin-left: 8px;
 }
@@ -778,12 +738,72 @@ footer > section.container > nav.contact4-footer > ul > li > a.fa-instagram:hove
 	cursor: pointer;
 }
 
-/*-------------------  ----------       Footer Media Query        ------------- -----------------*/
+/*                          -------------------The footer end------------------                               */
 
-@media screen and (max-width: ) {
 
+/*-------------------  ----------             Media Query               ------------- -----------------*/
+
+
+@media only screen and (max-width:659px) {
+	
+section.header > div.content-header > div.box-text > h2{
+	width: 578px;
+}
+
+
+section.header > div.content-header > div.box-text > p{
+	width: 378px;
+}
+
+article.section-1 > section.container > div.sec1 {
+	float: none;
+	display: block;
+	margin-left: -1px;
+}
+
+article.section-1 > section.container > div.sec2 {
+	float: none;
+	display: block;
+	margin-left: -4px;
+}
+
+article.section-1 > section.container > div.sec3 {
+	float: none;
+	display: block;
+	margin-left: -1px;
+}
+
+article.section-1 > section.container > div.sec4 {
+    float: none;
+	display: block;
+	margin-left: -4px;
+}
+
+article.section-2 > img.img-section2{
+	margin-left: 13%;
+}
+
+article.section-2 > div.text-section2{
+	margin-left: 13%;
+}
+
+
+article.section-3 > div.z-index{
+	display: inline-block;
+}
+
+article.section-3 > div.z-index{
+	display: inline-block;
+}
+
+article.section-3 > div.box-2{
+	display: inline-block;
+}
+
+article.section-3 > div.box-3{
+	display: inline-block;
+}
+	
 }
 
 /*-------------------  ----------       FINAL footer Media Query        ------------- -----------------*/
-
-/*                          -------------------The footer end------------------                               */
