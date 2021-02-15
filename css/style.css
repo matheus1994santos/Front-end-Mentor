@@ -5,7 +5,19 @@
 	box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 body{ height: 100%; background-color: hsl(218, 28%, 13%); Font-size: 14px; font-family: 'Open Sans', sans-serif; font-weight: 300;}
+=======
+
+body{ 
+	height: 100%; 
+	background-color: hsla(218, 29%, 13%, 0.979); 
+	background-image: url('../images/bg-curvy-desktop.svg'); background-size: 120%; background-position-x: center; background-position-y: 30%; background-repeat: no-repeat; 
+	font-size: 14px; 
+	font-family: 'Open Sans', sans-serif; 
+	font-weight: 300;
+}
+>>>>>>> version2
 
 
 /* Standard elements*/
@@ -23,6 +35,10 @@ a{
 /*                              -------------------Header------------------                                   */
 
 section.header{
+<<<<<<< HEAD
+=======
+	max-width: 1440px;
+>>>>>>> version2
 	width: 100%;
 	height: 930px;
 	margin-bottom: 18px;
@@ -62,6 +78,7 @@ section.header > header.container > nav.menu-container > ul.menu-desktop > li{
 section.header > header.container > nav.menu-container > ul.menu-desktop > li > a{
 	color: hsla(0, 0%, 100%, 0.514);
 	font-size: 17px;
+<<<<<<< HEAD
 }
 
 section.header > header.container > nav.menu-container > ul.menu-desktop > li > a:hover{
@@ -94,6 +111,40 @@ section.header > div.content-header > div.box-text{
 	height: auto;
 }
 
+=======
+}
+
+section.header > header.container > nav.menu-container > ul.menu-desktop > li > a:hover{
+	border-bottom: 0.8px solid white;
+	color: white;
+}
+
+/* content-header */
+
+section.header > div.content-header{
+	display: inline-block;
+	width: 96%;
+	height: 830px;
+	/* border-top: 1px solid lightcoral; */
+	text-align: center;
+	padding: 0 2%;
+	margin: 0 2%;
+}
+
+section.header > div.content-header > img{
+	max-width: 720px;
+	width: 102%;
+	margin: 18px 2% 8px 2%;
+}
+
+section.header > div.content-header > div.box-text{
+	display: inline-block;
+	max-width: 780px;
+	width: 100%;
+	height: auto;
+}
+
+>>>>>>> version2
 section.header > div.content-header > div.box-text > h2{
 	display: inline-block;
 	font-size: 45px;
@@ -103,6 +154,7 @@ section.header > div.content-header > div.box-text > h2{
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
+<<<<<<< HEAD
 }
 
 section.header > div.content-header > div.box-text > p{
@@ -139,6 +191,38 @@ section.header > div.content-header > div > div.btn-1 > h3{
 
 /*-------------------  ----------       FINAL header Media Query        ------------- -----------------*/
 
+=======
+	line-height: 52px;
+}
+
+section.header > div.content-header > div.box-text > p{
+	color: rgba(255, 255, 255, 0.685);
+	display: inline-block;
+	margin: 22px 0;
+	font-size: 18px;
+	width:64%;
+	min-width: 339px;
+	text-align: center;
+	line-height: 25px;
+}
+
+section.header > div.content-header > div > div.btn-1{
+	display: inline-block;
+	width: 235px;
+	height: 45px;
+	background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+	border-radius: 34px 34px;
+	cursor: pointer;
+}
+
+section.header > div.content-header > div > div.btn-1 > h3{
+	color: rgba(255, 255, 255, 0.767);
+	margin-top: 12px;
+	font-size: 19px;
+	cursor: pointer;
+}
+
+>>>>>>> version2
 /*                          -------------------The Header end------------------                               */
 
 
@@ -150,16 +234,27 @@ section.header > div.content-header > div > div.btn-1 > h3{
 /* ---- section-1 ---- */
 article.section-1{
 	display: inline-block;
+<<<<<<< HEAD
 	width: 96%;
 	height: auto;
 	margin-right: 2%;
 	margin-left: 2%;
+=======
+	max-width: 1440px;
+	width: 96%;
+	height: auto;
+	padding: 0 2%;
+>>>>>>> version2
 	text-align: center;
 }
 
 article.section-1 > section.container{
 	display: inline-block;
+<<<<<<< HEAD
 	max-width: 814px;
+=======
+	max-width: 834px;
+>>>>>>> version2
 	height: auto;
 	margin: 100px 2% 100px 2%;
 }
@@ -281,9 +376,16 @@ article.section-1 > section.container > div.sec4 > p{
 
 article.section-2{
 	display: inline-block;
+<<<<<<< HEAD
 	width: 96%;
 	height: auto;
 	margin: 0 2%;
+=======
+	max-width: 1440px;
+	width: 96%;
+	height: auto;
+	padding: 0 2%;
+>>>>>>> version2
 }
 
 /* image in the section 2 */
@@ -299,6 +401,7 @@ article.section-2 > img.img-section2{
 
 article.section-2 > div.text-section2{
 	float: left;
+<<<<<<< HEAD
 	min-width: 340px;
 	width: 35%;
 	height: auto;
@@ -307,6 +410,15 @@ article.section-2 > div.text-section2{
 
 article.section-2 > div.text-section2 > h2{
 	font-size: 48px;
+=======
+	width: 460px;
+	height: auto;
+	margin: 105px 2%;
+}
+
+article.section-2 > div.text-section2 > h2{
+	font-size: 42px;
+>>>>>>> version2
 	color: white;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
@@ -315,7 +427,11 @@ article.section-2 > div.text-section2 > h2{
 article.section-2 > div.text-section2 > p{
 	/* width: 460px; */
 	color: rgba(255, 255, 255, 0.685);
+<<<<<<< HEAD
 	font-size: 22px;
+=======
+	font-size: 16px;
+>>>>>>> version2
 }
 
 article.section-2 > div.text-section2 > a{
@@ -326,6 +442,14 @@ article.section-2 > div.text-section2 > a{
 article.section-2 > div.text-section2 > a:hover{
 	color: rgba(255, 255, 255, 0.685);
 	border-bottom: 0.8px solid rgba(255, 255, 255, 0.685);
+<<<<<<< HEAD
+=======
+}
+
+article.section-2 > div.text-section2 > a > img{
+	position: relative;
+	top: 3px;
+>>>>>>> version2
 }
 
 article.section-2 > div.text-section2 > a > img{
@@ -348,6 +472,7 @@ article.section-2 > div.text-section2 > a > img{
 
 article.section-3{
 	display: inline-block;
+<<<<<<< HEAD
 	width: 96%;
 	height: auto;
 	margin: 0 2%;
@@ -358,6 +483,18 @@ article.section-3 > div.z-index{
 	position: relative;
 	margin: 40px 0 60px 5%;
 	height:290px;
+=======
+	max-width: 1440px;
+	width: 100%;
+	height: auto;
+}
+
+
+article.section-3 > div.z-index{
+	float: left;
+	position: relative;
+	margin: 40px 0 60px 8%;
+>>>>>>> version2
 }
 
 article.section-3 > div.z-index > img.img-section3{
@@ -375,13 +512,19 @@ article.section-3 > div.z-index > img.img-section3{
 article.section-3 > div.z-index > div.box-1{
 	float: left;
 	position: relative;
+<<<<<<< HEAD
 	width: 360px;
 	height:230px;
+=======
+	width: 350px;
+	/*height:230px;*/
+>>>>>>> version2
 	margin-top: 40px;
 	background-color: hsl(219, 30%, 18%);
 	z-index: 1;
 }
 
+<<<<<<< HEAD
 article.section-3  > div.z-index > div.box-1 > p{
 	color: rgba(255, 255, 255, 0.685);
 	font-size: 18px;
@@ -411,7 +554,35 @@ article.section-3 > div.z-index > div.box-1 > h5{
 /*-------------------  ----------       Section-3 Media Query        ------------- -----------------*/
 
 @media screen and (max-width: ) {
+=======
+article.section-3 > div.z-index > div.box-1 > p{
+	color: rgba(255, 255, 255, 0.685);
+	font-size: 17px;
+	margin: 44px 10px 10px 30px;
+}
 
+article.section-3 > div.z-index > div.box-1 > img{
+	float: left;
+	width: 31px;
+	border-radius: 13px 14px;
+	margin-left: 27px;
+	margin-bottom: 22px;
+}
+
+article.section-3 > div.z-index > div.box-1 > h3{
+	color: white;
+	display: inline-block;
+	width: 230px;
+	font-size: 12px;
+	margin-left: 8px;
+}
+>>>>>>> version2
+
+article.section-3 > div.z-index > div.box-1 > h5{
+	color: rgba(255, 255, 255, 0.685);
+	display: inline-block;
+	font-size: 11px;
+	margin-left: 10px;
 }
 
 /*-------------------  ----------       FINAL Section-3 Media Query        ------------- -----------------*/
@@ -422,16 +593,28 @@ article.section-3 > div.z-index > div.box-1 > h5{
 
 article.section-3 > div.box-2{
 	float: left;
+<<<<<<< HEAD
 	width: 360px;
 	height:230px;
 	margin: 80px 0 80px 36px;
+=======
+	width: 348px;
+	/*height:230px;*/
+	margin: 80px 2% 80px 2%;
+>>>>>>> version2
 	background-color: hsl(219, 30%, 18%);
 }
 
 article.section-3 > div.box-2 > p{
 	color: rgba(255, 255, 255, 0.685);
+<<<<<<< HEAD
 	font-size: 18px;
 	margin: 44px 10px 0 30px;
+=======
+	width: 332px;
+	font-size: 17px;
+	margin: 44px 12px 10px 12px;
+>>>>>>> version2
 }
 
 article.section-3 > div.box-2 > img{
@@ -439,18 +622,31 @@ article.section-3 > div.box-2 > img{
 	width: 31px;
 	border-radius: 13px 14px;
 	margin-left: 27px;
+<<<<<<< HEAD
+=======
+	margin-bottom: 22px;
+>>>>>>> version2
 }
 
 article.section-3 > div.box-2 > h3{
 	color: white;
 	display: inline-block;
+<<<<<<< HEAD
 	width: 270px;
+=======
+	width: 230px;
+	font-size: 12px;
+>>>>>>> version2
 	margin-left: 8px;
 }
 
 article.section-3 > div.box-2 > h5{
 	color: rgba(255, 255, 255, 0.685);
 	display: inline-block;
+<<<<<<< HEAD
+=======
+	font-size: 12px;
+>>>>>>> version2
 	margin-left: 10px;
 }
 
@@ -460,6 +656,7 @@ article.section-3 > div.box-2 > h5{
 
 article.section-3 > div.box-3{
 	float: left;
+<<<<<<< HEAD
 	width: 360px;
 	height:230px;
 	margin: 80px 4% 80px 36px;
@@ -471,6 +668,20 @@ article.section-3 > div.box-3 > p{
 	color: rgba(255, 255, 255, 0.685);
 	font-size: 18px;
 	margin: 44px 10px 0 30px;
+=======
+	width: 348px;
+	/*height:230px;*/
+	margin: 80px 2% 80px 0%;
+	/*padding-bottom: 80px;*/
+	background-color: hsl(219, 30%, 18%);
+}
+
+article.section-3 div.box-3 > p{
+	color: rgba(255, 255, 255, 0.685);
+	font-size: 17px;
+	width: 332px;
+	margin: 44px 12px 13px 12px;
+>>>>>>> version2
 }
 
 article.section-3 > div.box-3 > img{
@@ -478,18 +689,28 @@ article.section-3 > div.box-3 > img{
 	width: 31px;
 	border-radius: 13px 14px;
 	margin-left: 27px;
+<<<<<<< HEAD
+=======
+	margin-bottom: 20px;
+>>>>>>> version2
 }
 
 article.section-3 > div.box-3 > h3{
 	color: white;
 	display: inline-block;
+<<<<<<< HEAD
 	width: 270px;
+=======
+	width: 220px;
+	font-size: 12px;
+>>>>>>> version2
 	margin-left: 8px;
 }
 
 article.section-3 > div.box-3 > h5{
 	color: rgba(255, 255, 255, 0.685);
 	display: inline-block;
+<<<<<<< HEAD
 	margin-left: 10px;
 }
 
@@ -497,6 +718,10 @@ article.section-3 > div.box-3 > h5{
 
 @media screen and (max-width: ) {
 
+=======
+	font-size: 12px;
+	margin-left: 10px;
+>>>>>>> version2
 }
 
 /*-------------------  ----------       FINAL Section-3 Media Query        ------------- -----------------*/
@@ -509,8 +734,54 @@ article.section-3 > div.box-3 > h5{
 
 /*                          -------------------  Form E-mail  ------------------                              */
 
+<<<<<<< HEAD
+=======
 
 
+/*                          ---------------- The Form E-mail end ---------------                              */
+
+article.form-email{
+	display: inline-block;
+	max-width: 1440px;
+	width: 96%;
+	height: auto;
+	padding: 0 2%;
+	text-align: center;
+	position: relative;
+	top: 70px;
+}
+
+article.form-email > div.box-form{
+	display: inline-block;
+	max-width: 640px;
+	height: auto;
+	background-color:hsl(217, 26%, 16%);
+	border-radius: 5px 8px;
+	box-shadow: 4px 4px rgba(0, 0, 0, 0.178);
+	margin-left: -30px;
+	
+}
+
+article.form-email > div.box-form > h2{
+	margin: 0 120px;
+	color: white;
+}
+
+article.form-email > div.box-form > p{
+	margin: 8px 70px 0 70px;
+	color: rgba(255, 255, 255, 0.685);
+}
+
+article.form-email > div.box-form > form > div{
+	display: inline-block;
+}
+>>>>>>> version2
+
+article.form-email > div.box-form > form > div > h5{
+	color: hsl(0, 100%, 63%);
+}
+
+<<<<<<< HEAD
 /*                          ---------------- The Form E-mail end ---------------                              */
 
 article.form-email{
@@ -552,6 +823,8 @@ article.form-email > div.box-form > form > div > h5{
 	color: hsl(0, 100%, 63%);
 }
 
+=======
+>>>>>>> version2
 article.form-email > div.box-form > form > div > input#email-form{
 	border-radius: 34px 34px;
 	width: 260px;
@@ -561,6 +834,7 @@ article.form-email > div.box-form > form > div > input#email-form{
 	margin: 0 24px 4px 24px;
 	text-align: center;
 }
+<<<<<<< HEAD
 
 article.form-email > div.box-form > form > div > input::placeholder{
 	color: rgba(204, 204, 204, 0.76);
@@ -584,12 +858,32 @@ article.form-email > div.box-form > form > input[type=button]{
 }
 
 /*-------------------  ----------       FINAL Form Email Media Query        ------------- -----------------*/
+=======
+>>>>>>> version2
 
+article.form-email > div.box-form > form > div > input::placeholder{
+	color: rgba(204, 204, 204, 0.76);
+}
+
+article.form-email > div.box-form > form > input[type=button]{
+	width: 180px;
+	height: 45px;
+	background-color: hsl(176, 68%, 64%);
+	border-radius: 34px 34px;
+	margin: 0 24px 25px 24px;
+	border: none;
+	cursor: pointer;
+	color: white;
+}
 
 /*                              -------------------Footer------------------                                   */
 
 footer{
 	display: inline-block;
+<<<<<<< HEAD
+=======
+	max-width: 1440px;
+>>>>>>> version2
 	width: 100%;
 	background-color: hsl(216, 53%, 9%);
 	height: auto;
@@ -636,30 +930,50 @@ footer > section.container > div.description-footer > p{
 
 /* Contacts 1 */
 
+<<<<<<< HEAD
 footer > section.container > div.contacts-footer{
+=======
+footer > section.container > nav.contacts-footer{
+>>>>>>> version2
 	float: left;
 	width: 200px;
 	height: 160px;
 	margin: 15px 10px 0 10px;
 }
 
+<<<<<<< HEAD
 footer > section.container > div.contacts-footer > ul > li{
+=======
+footer > section.container > nav.contacts-footer > ul > li{
+>>>>>>> version2
 	color: rgba(255, 255, 255, 0.685);
 	list-style-type: none;
 	margin-top: 8px;
 }
 
+<<<<<<< HEAD
 footer > section.container > div.contacts-footer > ul > li > a:hover{
+=======
+footer > section.container > nav.contacts-footer > ul > li > a:hover{
+>>>>>>> version2
 	color: white;
 	font-weight: 700;
 	cursor: pointer;
 }
 
+<<<<<<< HEAD
 footer > section.container > div.contacts-footer > ul > li > img{
 
 }
 
 footer > section.container > div.contacts-footer > ul > li > a{
+=======
+footer > section.container > nav.contacts-footer > ul > li > img{
+
+}
+
+footer > section.container > nav.contacts-footer > ul > li > a{
+>>>>>>> version2
 	color: rgba(255, 255, 255, 0.685);
 	margin-left: 8px;
 }
@@ -762,6 +1076,7 @@ footer > section.container > nav.contact4-footer > ul > li > a.fa-facebook:hover
 	border: 0.8px solid #2f55a4;
 	font-weight: 700;
 	cursor: pointer;
+<<<<<<< HEAD
 }
 
 footer > section.container > nav.contact4-footer > ul > li > a.fa-twitter:hover{
@@ -787,3 +1102,180 @@ footer > section.container > nav.contact4-footer > ul > li > a.fa-instagram:hove
 /*-------------------  ----------       FINAL footer Media Query        ------------- -----------------*/
 
 /*                          -------------------The footer end------------------                               */
+=======
+}
+
+footer > section.container > nav.contact4-footer > ul > li > a.fa-twitter:hover{
+	color: rgb(0, 174, 255);
+	border: 0.8px solid rgb(0, 174, 255);
+	font-weight: 700;
+	cursor: pointer;
+}
+
+footer > section.container > nav.contact4-footer > ul > li > a.fa-instagram:hover{
+	color: #d136a0;
+	border: 0.8px solid #bc2a8d;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+/*                          -------------------The footer end------------------                               */
+
+
+/*-------------------  ----------             Media Query               ------------- -----------------*/
+
+
+@media only screen and (max-width:659px) {
+	
+		section.header > div.content-header > div.box-text > h2{
+			width: 578px;
+		}
+
+
+		section.header > div.content-header > div.box-text > p{
+			width: 378px;
+		}
+
+		article.section-1 > section.container > div.sec1 {
+			float: none;
+			display: block;
+			margin-left: -1px;
+		}
+
+		article.section-1 > section.container > div.sec2 {
+			float: none;
+			display: block;
+			margin-left: -4px;
+		}
+
+		article.section-1 > section.container > div.sec3 {
+			float: none;
+			display: block;
+			margin-left: -1px;
+		}
+
+		article.section-1 > section.container > div.sec4 {
+			float: none;
+			display: block;
+			margin-left: -4px;
+		}
+
+		article.section-2 > img.img-section2{
+			padding-left: 19%;
+		}
+	
+		article.section-2 > div.text-section2{
+			padding-left: 19%
+		}
+	
+
+
+		article.section-3 > div.z-index{
+			display: inline-block;
+			position: relative;
+			left: 80px;
+			
+		}
+
+		article.section-3 > div.box-2{
+			display: inline-block;
+			position: relative;
+			left: 70px;
+		}
+
+		article.section-3 > div.box-3{
+			display: inline-block;
+			position: relative;
+			left: -60px;
+		}
+
+		article.form-email > div.box-form{
+			margin-left: 0.8%;
+			width: 100%;
+		}
+
+		footer > section.container{
+			display: inline-block;
+			width: 100%;
+		}
+
+		footer > section.container > div.description-footer{
+			margin: 15px 30px 0 -150px;
+		}
+	
+		footer > section.container > nav.contacts-footer{
+			margin: 15px 30px 0 100px;
+		}
+	
+		footer > section.container > nav.contact2-footer{
+			margin: 15px 0px 0 0px;
+		}
+	
+		footer > section.container > nav.contact3-footer{
+			margin: 15px 0px 0 290px;
+		}
+	
+		footer > section.container > nav.contact4-footer{
+			margin: 15px 0px 0 100px;
+		}
+	
+}
+
+
+@media only screen and (max-width:979px){
+	article.section-2 > img.img-section2{
+		/* padding-left: 18%; */
+		margin: 0px;
+		margin-left: 2px;
+		margin-bottom: 80px;
+	}
+
+	article.section-2 > div.text-section2{
+		margin: 0;
+		margin-left: 9px;
+		margin-top: 48px;
+		margin-bottom: 80px;
+	}
+
+	article.section-3 > div.z-index{
+		margin: 0;
+		margin-top: 40px;
+		margin-left: 8%;
+	}
+
+	article.section-3 > div.box-2{
+		margin-left: 10%;
+		margin-right: 2px;
+	}
+
+	article.section-3 > div.box-3{
+		margin-left: 31%;
+		margin-top: -13px;
+	}
+
+	footer > section.container > div.description-footer{
+		margin: 5px 30px 0 4%;
+		width: 280px;
+	}
+
+	footer > section.container > nav.contacts-footer{
+		margin: 5px 10px 0 4%;
+	}
+
+	footer > section.container > nav.contact2-footer{
+		width: 120px;
+		margin: 5px 0px 0px 8%;
+	}
+
+	footer > section.container > nav.contact3-footer{
+		margin: 5px 0px 0 2%;
+		width: 120px;
+	}
+
+	footer > section.container > nav.contact4-footer{
+		margin: 5px 0px 0 1%;
+	}
+}
+
+/*-------------------  ----------       FINAL footer Media Query        ------------- -----------------*/
+>>>>>>> version2
