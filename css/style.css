@@ -746,64 +746,148 @@ footer > section.container > nav.contact4-footer > ul > li > a.fa-instagram:hove
 
 @media only screen and (max-width:659px) {
 	
-section.header > div.content-header > div.box-text > h2{
-	width: 578px;
-}
+		section.header > div.content-header > div.box-text > h2{
+			width: 578px;
+		}
 
 
-section.header > div.content-header > div.box-text > p{
-	width: 378px;
-}
+		section.header > div.content-header > div.box-text > p{
+			width: 378px;
+		}
 
-article.section-1 > section.container > div.sec1 {
-	float: none;
-	display: block;
-	margin-left: -1px;
-}
+		article.section-1 > section.container > div.sec1 {
+			float: none;
+			display: block;
+			margin-left: -1px;
+		}
 
-article.section-1 > section.container > div.sec2 {
-	float: none;
-	display: block;
-	margin-left: -4px;
-}
+		article.section-1 > section.container > div.sec2 {
+			float: none;
+			display: block;
+			margin-left: -4px;
+		}
 
-article.section-1 > section.container > div.sec3 {
-	float: none;
-	display: block;
-	margin-left: -1px;
-}
+		article.section-1 > section.container > div.sec3 {
+			float: none;
+			display: block;
+			margin-left: -1px;
+		}
 
-article.section-1 > section.container > div.sec4 {
-    float: none;
-	display: block;
-	margin-left: -4px;
-}
+		article.section-1 > section.container > div.sec4 {
+			float: none;
+			display: block;
+			margin-left: -4px;
+		}
 
-article.section-2 > img.img-section2{
-	margin-left: 13%;
-}
+		article.section-2 > img.img-section2{
+			margin-left: 11%;
+		}
 
-article.section-2 > div.text-section2{
-	margin-left: 13%;
-}
+		article.section-2 > div.text-section2{
+			margin-left: 11%;
+		}
 
 
-article.section-3 > div.z-index{
-	display: inline-block;
-}
+		article.section-3 > div.z-index{
+			display: inline-block;
+			margin-left: 120px;
+		}
 
-article.section-3 > div.z-index{
-	display: inline-block;
-}
+		article.section-3 > div.box-2{
+			display: inline-block;
+			margin-left: 120px;
+			margin-top: -20px;
+		}
 
-article.section-3 > div.box-2{
-	display: inline-block;
-}
+		article.section-3 > div.box-3{
+			display: inline-block;
+			margin-left: 120px;
+			margin-top: -33px;
+		}
 
-article.section-3 > div.box-3{
-	display: inline-block;
-}
+		article.form-email > div.box-form{
+			margin-left: 0.8%;
+			width: 100%;
+		}
+
+		footer > section.container{
+			display: inline-block;
+			width: 100%;
+		}
+
+		footer > section.container > div.description-footer{
+			margin: 15px 30px 0 140px;
+		}
+
+		footer > section.container > nav.contacts-footer{
+			margin: 15px 10px 0 130px;
+		}
+
+		footer > section.container > nav.contact2-footer{
+			margin: 15px 0px 0 0px;
+		}
+
+		footer > section.container > nav.contact3-footer{
+			margin: 15px 0px 0 130px;
+		}
+
+		footer > section.container > nav.contact4-footer{
+			margin: 15px 0px 0 0px;
+		}
 	
+}
+
+
+@media only screen and (max-width:979px){
+	article.section-2 > img.img-section2{
+		/* padding-left: 18%; */
+		margin: 0px;
+		margin-left: 2px;
+		margin-bottom: 80px;
+	}
+
+	article.section-2 > div.text-section2{
+		margin: 0;
+		margin-left: 9px;
+		margin-top: 48px;
+		margin-bottom: 80px;
+	}
+
+	article.section-3 > div.z-index{
+		margin: 0;
+		margin-top: 40px;
+		margin-left: 8%;
+	}
+
+	article.section-3 > div.box-2{
+		margin-left: 10%;
+		margin-right: 2px;
+	}
+
+	article.section-3 > div.box-3{
+		margin-left: 31%;
+		margin-top: -13px;
+	}
+
+	footer > section.container > div.description-footer{
+		margin: 15px 30px 0 60px;
+	}
+
+	footer > section.container > nav.contacts-footer{
+		margin: 15px 30px 0 100px;
+	}
+
+	footer > section.container > nav.contact2-footer{
+		margin: 15px 0px 0 0px;
+	}
+
+	footer > section.container > nav.contact3-footer{
+		margin: 15px 0px 0 290px;
+	}
+
+	footer > section.container > nav.contact4-footer{
+		margin: 15px 0px 0 100px;
+	}
 }
 
 /*-------------------  ----------       FINAL footer Media Query        ------------- -----------------*/
