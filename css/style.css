@@ -5,7 +5,15 @@
 	box-sizing: border-box;
 }
 
-body{ height: 100%; background-color: hsl(218, 28%, 13%); font-size: 14px; font-family: 'Open Sans', sans-serif; font-weight: 300;}
+
+body{ 
+	height: 100%; 
+	background-color: hsla(218, 29%, 13%, 0.979); 
+	background-image: url('../images/bg-curvy-desktop.svg'); background-size: 120%; background-position-x: center; background-position-y: 30%; background-repeat: no-repeat; 
+	font-size: 14px; 
+	font-family: 'Open Sans', sans-serif; 
+	font-weight: 300;
+}
 
 
 /* Standard elements*/
@@ -23,6 +31,7 @@ a{
 /*                              -------------------Header------------------                                   */
 
 section.header{
+	max-width: 1440px;
 	width: 100%;
 	height: 930px;
 	margin-bottom: 18px;
@@ -103,6 +112,7 @@ section.header > div.content-header > div.box-text > h2{
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
+	line-height: 52px;
 }
 
 section.header > div.content-header > div.box-text > p{
@@ -113,6 +123,7 @@ section.header > div.content-header > div.box-text > p{
 	width:64%;
 	min-width: 339px;
 	text-align: center;
+	line-height: 25px;
 }
 
 section.header > div.content-header > div > div.btn-1{
@@ -142,10 +153,10 @@ section.header > div.content-header > div > div.btn-1 > h3{
 /* ---- section-1 ---- */
 article.section-1{
 	display: inline-block;
+	max-width: 1440px;
 	width: 96%;
 	height: auto;
-	margin-right: 2%;
-	margin-left: 2%;
+	padding: 0 2%;
 	text-align: center;
 }
 
@@ -265,9 +276,10 @@ article.section-1 > section.container > div.sec4 > p{
 
 article.section-2{
 	display: inline-block;
+	max-width: 1440px;
 	width: 96%;
 	height: auto;
-	margin: 0 2%;
+	padding: 0 2%;
 }
 
 /* image in the section 2 */
@@ -323,6 +335,7 @@ article.section-2 > div.text-section2 > a > img{
 
 article.section-3{
 	display: inline-block;
+	max-width: 1440px;
 	width: 100%;
 	height: auto;
 }
@@ -484,9 +497,10 @@ article.section-3 > div.box-3 > h5{
 
 article.form-email{
 	display: inline-block;
+	max-width: 1440px;
 	width: 96%;
 	height: auto;
-	margin: 0 2%;
+	padding: 0 2%;
 	text-align: center;
 	position: relative;
 	top: 70px;
@@ -550,6 +564,7 @@ article.form-email > div.box-form > form > input[type=button]{
 
 footer{
 	display: inline-block;
+	max-width: 1440px;
 	width: 100%;
 	background-color: hsl(216, 53%, 9%);
 	height: auto;
@@ -780,29 +795,32 @@ footer > section.container > nav.contact4-footer > ul > li > a.fa-instagram:hove
 		}
 
 		article.section-2 > img.img-section2{
-			margin-left: 11%;
+			padding-left: 19%;
 		}
-
+	
 		article.section-2 > div.text-section2{
-			margin-left: 11%;
+			padding-left: 19%
 		}
+	
 
 
 		article.section-3 > div.z-index{
 			display: inline-block;
-			margin-left: 120px;
+			position: relative;
+			left: 80px;
+			
 		}
 
 		article.section-3 > div.box-2{
 			display: inline-block;
-			margin-left: 120px;
-			margin-top: -20px;
+			position: relative;
+			left: 70px;
 		}
 
 		article.section-3 > div.box-3{
 			display: inline-block;
-			margin-left: 120px;
-			margin-top: -33px;
+			position: relative;
+			left: -60px;
 		}
 
 		article.form-email > div.box-form{
@@ -816,23 +834,23 @@ footer > section.container > nav.contact4-footer > ul > li > a.fa-instagram:hove
 		}
 
 		footer > section.container > div.description-footer{
-			margin: 15px 30px 0 140px;
+			margin: 15px 30px 0 -150px;
 		}
-
+	
 		footer > section.container > nav.contacts-footer{
-			margin: 15px 10px 0 130px;
+			margin: 15px 30px 0 100px;
 		}
-
+	
 		footer > section.container > nav.contact2-footer{
 			margin: 15px 0px 0 0px;
 		}
-
+	
 		footer > section.container > nav.contact3-footer{
-			margin: 15px 0px 0 130px;
+			margin: 15px 0px 0 290px;
 		}
-
+	
 		footer > section.container > nav.contact4-footer{
-			margin: 15px 0px 0 0px;
+			margin: 15px 0px 0 100px;
 		}
 	
 }
@@ -870,23 +888,26 @@ footer > section.container > nav.contact4-footer > ul > li > a.fa-instagram:hove
 	}
 
 	footer > section.container > div.description-footer{
-		margin: 15px 30px 0 60px;
+		margin: 5px 30px 0 4%;
+		width: 280px;
 	}
 
 	footer > section.container > nav.contacts-footer{
-		margin: 15px 30px 0 100px;
+		margin: 5px 10px 0 4%;
 	}
 
 	footer > section.container > nav.contact2-footer{
-		margin: 15px 0px 0 0px;
+		width: 120px;
+		margin: 5px 0px 0px 8%;
 	}
 
 	footer > section.container > nav.contact3-footer{
-		margin: 15px 0px 0 290px;
+		margin: 5px 0px 0 2%;
+		width: 120px;
 	}
 
 	footer > section.container > nav.contact4-footer{
-		margin: 15px 0px 0 100px;
+		margin: 5px 0px 0 1%;
 	}
 }
 
