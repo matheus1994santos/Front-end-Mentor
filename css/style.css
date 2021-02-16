@@ -1017,6 +1017,21 @@ footer > section.container > nav.contact4-footer > ul > li > a.fa-instagram:hove
 			width: 100%;
 		}
 
+		section.header > header.container > div.logo{
+			width: 90px;
+			height: 30px;
+			
+		}
+		
+		section.header > header.container > nav.menu-container{
+			padding: 11px 0;
+			margin-right: 4px;
+		}
+
+		section.header > header.container > nav.menu-container > ul.menu-desktop > li{
+			margin: 0 14px;
+		}
+
 		section.header > div.content-header{
 			max-width: 500px;
 			width: 100%;
@@ -1042,23 +1057,23 @@ footer > section.container > nav.contact4-footer > ul > li > a.fa-instagram:hove
 		}
 
 		article.section-2 > img.img-section2{
-			padding-left: 14%;
+			padding-left: 10%;
 		}
 	
 		article.section-2 > div.text-section2{
-			padding-left: 10%
+			padding-left: 8%
 		}
 
 		article.section-3 > div.z-index{
-			left: 30px;
+			left: 24px;
 		}
 
 		article.section-3 > div.box-2{
-			left: 20px;
+			left: 16px;
 		}
 
 		article.section-3 > div.box-3{
-			left: -84px;
+			left: -90px;
 		}
 
 		footer > section.container{
@@ -1069,7 +1084,7 @@ footer > section.container > nav.contact4-footer > ul > li > a.fa-instagram:hove
 
 		footer > section.container > div.description-footer{
 			display: block;
-			margin: 15px 30px 0 110px;
+			margin: 15px 30px 0 40px;
 		}
 
 		footer > section.container > div.description-footer > p{
@@ -1077,22 +1092,22 @@ footer > section.container > nav.contact4-footer > ul > li > a.fa-instagram:hove
 		}
 
 		footer > section.container > nav.contacts-footer{
-			display: block;
-			margin: 15px 30px 0 100px;
+			
+			margin: 15px 30px 0 70px;
 		}
 	
 		footer > section.container > nav.contact2-footer{
-			display: block;
+			
 			margin: 15px 0px 0 0px;
 		}
 	
 		footer > section.container > nav.contact3-footer{
-			display: block;
-			margin: 15px 0px 0 100px;
+			
+			margin: 15px 0px 0 70px;
 		}
 	
 		footer > section.container > nav.contact4-footer{
-			display: block;
+			
 			margin: 15px 0px 0 10px;
 		}
 }
