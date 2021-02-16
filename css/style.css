@@ -287,7 +287,6 @@ article.section-2{
 article.section-2 > img.img-section2{
 	float: left;
 	width: 45%;
-	min-width: 450px;
 	margin: 0 2% 0 6%;
 }
 
@@ -859,13 +858,17 @@ footer > section.container > nav.contact4-footer > ul > li > a.fa-instagram:hove
 @media only screen and (max-width:979px){
 	article.section-2 > img.img-section2{
 		/* padding-left: 18%; */
+		display: inline-block;
+		width: 430px;
 		margin: 0px;
 		margin-left: 2px;
 		margin-bottom: 80px;
 	}
 
 	article.section-2 > div.text-section2{
+		display: inline-block;
 		margin: 0;
+		width: 430px;
 		margin-left: 9px;
 		margin-top: 48px;
 		margin-bottom: 80px;
@@ -893,7 +896,7 @@ footer > section.container > nav.contact4-footer > ul > li > a.fa-instagram:hove
 	}
 
 	footer > section.container > nav.contacts-footer{
-		margin: 5px 10px 0 4%;
+		margin: 5px 10px 0 12%;
 	}
 
 	footer > section.container > nav.contact2-footer{
@@ -902,13 +905,196 @@ footer > section.container > nav.contact4-footer > ul > li > a.fa-instagram:hove
 	}
 
 	footer > section.container > nav.contact3-footer{
-		margin: 5px 0px 0 2%;
+		margin: 5px 0px 0 30%;
 		width: 120px;
 	}
 
 	footer > section.container > nav.contact4-footer{
-		margin: 5px 0px 0 1%; 
+		margin: 5px 0px 0 10%; 
 	}
+}
+
+@media only screen and (max-width:659px) {
+	
+	section.header > div.content-header > div.box-text > h2{
+		width: 578px;
+	}
+
+
+	section.header > div.content-header > div.box-text > p{
+		width: 378px;
+	}
+
+	article.section-1 > section.container > div.sec1 {
+		float: none;
+		display: block;
+		margin-left: -1px;
+	}
+
+	article.section-1 > section.container > div.sec2 {
+		float: none;
+		display: block;
+		margin-left: -4px;
+	}
+
+	article.section-1 > section.container > div.sec3 {
+		float: none;
+		display: block;
+		margin-left: -1px;
+	}
+
+	article.section-1 > section.container > div.sec4 {
+		float: none;
+		display: block;
+		margin-left: -4px;
+	}
+
+	article.section-2 > img.img-section2{
+		padding-left: 19%;
+	}
+
+	article.section-2 > div.text-section2{
+		padding-left: 19%
+	}
+
+
+
+	article.section-3 > div.z-index{
+		display: inline-block;
+		position: relative;
+		left: 80px;
+		
+	}
+
+	article.section-3 > div.box-2{
+		display: inline-block;
+		position: relative;
+		left: 70px;
+	}
+
+	article.section-3 > div.box-3{
+		display: inline-block;
+		position: relative;
+		left: -60px;
+	}
+
+	article.form-email > div.box-form{
+		margin-left: 0.8%;
+		width: 100%;
+	}
+
+	footer > section.container{
+		display: inline-block;
+		width: 100%;
+	}
+
+	footer > section.container > div.description-footer{
+		margin: 15px 30px 0 -150px;
+	}
+
+	footer > section.container > nav.contacts-footer{
+		margin: 15px 30px 0 100px;
+	}
+
+	footer > section.container > nav.contact2-footer{
+		margin: 15px 0px 0 0px;
+	}
+
+	footer > section.container > nav.contact3-footer{
+		margin: 15px 0px 0 290px;
+	}
+
+	footer > section.container > nav.contact4-footer{
+		margin: 15px 0px 0 100px;
+	}
+
+}
+
+
+@media only screen and (max-width:570px){
+		section.header{
+			max-width: 500px;
+			width: 100%;
+		}
+
+		section.header > div.content-header{
+			max-width: 500px;
+			width: 100%;
+		}
+
+		section.header > div.content-header > img{
+			width: 70%;
+		}
+
+		section.header > div.content-header > div.box-text > h2{
+			max-width: 480px;
+			width: 100%;
+			padding: 0 1%;
+			
+		}
+
+		article.section-1 > section.container{
+			max-width: 500px;
+			width: 100%;
+			margin-top: 0;
+			padding: 0 2% 0 15%;
+			
+		}
+
+		article.section-2 > img.img-section2{
+			padding-left: 14%;
+		}
+	
+		article.section-2 > div.text-section2{
+			padding-left: 10%
+		}
+
+		article.section-3 > div.z-index{
+			left: 30px;
+		}
+
+		article.section-3 > div.box-2{
+			left: 20px;
+		}
+
+		article.section-3 > div.box-3{
+			left: -84px;
+		}
+
+		footer > section.container{
+			max-width: 480px;
+			width: 100%;
+			
+		}
+
+		footer > section.container > div.description-footer{
+			display: block;
+			margin: 15px 30px 0 110px;
+		}
+
+		footer > section.container > div.description-footer > p{
+			font-size: 18px;
+		}
+
+		footer > section.container > nav.contacts-footer{
+			display: block;
+			margin: 15px 30px 0 100px;
+		}
+	
+		footer > section.container > nav.contact2-footer{
+			display: block;
+			margin: 15px 0px 0 0px;
+		}
+	
+		footer > section.container > nav.contact3-footer{
+			display: block;
+			margin: 15px 0px 0 100px;
+		}
+	
+		footer > section.container > nav.contact4-footer{
+			display: block;
+			margin: 15px 0px 0 10px;
+		}
 }
 
 /*-------------------  ----------       FINAL footer Media Query        ------------- -----------------*/
