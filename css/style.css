@@ -6,13 +6,17 @@
 }
 
 
-body{ 
+body,html{ 
 	height: 100%; 
-	background-color: hsla(218, 29%, 13%, 0.979); 
-	background-image: url('../images/bg-curvy-desktop.svg'); background-size: 100%; background-position-x: center; background-position-y: 30%; background-repeat: no-repeat; 
+	background-color: hsl(218, 28%, 13%); 
 	font-size: 14px; 
 	font-family: 'Open Sans', sans-serif; 
 	font-weight: 300;
+	background-image: url('../images/bg-curvy-desktop.svg'); 
+	background-size: 1360px auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	
 }
 
 
@@ -31,16 +35,13 @@ a{
 /*                              -------------------Header------------------                                   */
 
 section.header{
-	max-width: 1440px;
-	width: 100%;
+	max-width: 1360px;
 	height: 930px;
 	margin-bottom: 18px;
 }
 
 section.header > header.container{
-	display: inline-block;
-	width: 100%;
-	height: auto;
+	height: 43px;
 	margin:39px 2%;
 }
 
@@ -153,7 +154,7 @@ section.header > div.content-header > div > div.btn-1 > h3{
 /* ---- section-1 ---- */
 article.section-1{
 	display: inline-block;
-	max-width: 1440px;
+	max-width: 1360px;
 	width: 96%;
 	height: auto;
 	padding: 0 2%;
@@ -276,7 +277,7 @@ article.section-1 > section.container > div.sec4 > p{
 
 article.section-2{
 	display: inline-block;
-	max-width: 1440px;
+	max-width: 1360px;
 	width: 96%;
 	height: auto;
 	padding: 0 2%;
@@ -334,7 +335,7 @@ article.section-2 > div.text-section2 > a > img{
 
 article.section-3{
 	display: inline-block;
-	max-width: 1440px;
+	max-width: 1360px;
 	width: 100%;
 	height: auto;
 }
@@ -496,7 +497,7 @@ article.section-3 > div.box-3 > h5{
 
 article.form-email{
 	display: inline-block;
-	max-width: 1440px;
+	max-width: 1360px;
 	width: 96%;
 	height: auto;
 	padding: 0 2%;
@@ -563,7 +564,7 @@ article.form-email > div.box-form > form > input[type=button]{
 
 footer{
 	display: inline-block;
-	max-width: 1440px;
+	max-width: 1360px;
 	width: 100%;
 	background-color: hsl(216, 53%, 9%);
 	height: auto;
