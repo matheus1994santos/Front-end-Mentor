@@ -9,7 +9,7 @@
 body{ 
 	height: 100%; 
 	background-color: hsla(218, 29%, 13%, 0.979); 
-	background-image: url('../images/bg-curvy-desktop.svg'); background-size: 120%; background-position-x: center; background-position-y: 30%; background-repeat: no-repeat; 
+	background-image: url('../images/bg-curvy-desktop.svg'); background-size: 100%; background-position-x: center; background-position-y: 30%; background-repeat: no-repeat; 
 	font-size: 14px; 
 	font-family: 'Open Sans', sans-serif; 
 	font-weight: 300;
